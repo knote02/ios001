@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CustomerReviewCell" id="KGk-i7-Jjw" customClass="CustomerReviewCell" customModule="scatch_ios" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="75"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="74.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="スコア : 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qaD-FR-Hp7" userLabel="Score">
+                        <rect key="frame" x="16" y="5" width="81.5" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="日時 : 2000/01/01 00:00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jk4-JL-xPZ" userLabel="Date">
+                        <rect key="frame" x="34" y="28" width="211" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="コメント" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DTG-Eq-9A4" userLabel="Comment">
+                        <rect key="frame" x="34" y="51" width="286" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hQp-pt-3Ew" userLabel="BottomBorder">
+                        <rect key="frame" x="0.0" y="73.5" width="320" height="1"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="Q2d-Do-9fg"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="DTG-Eq-9A4" secondAttribute="trailing" id="1re-WN-hUb"/>
+                    <constraint firstItem="jk4-JL-xPZ" firstAttribute="top" secondItem="qaD-FR-Hp7" secondAttribute="bottom" constant="2" id="1ww-hw-hCb"/>
+                    <constraint firstItem="jk4-JL-xPZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="34" id="5PK-ay-11A"/>
+                    <constraint firstAttribute="bottom" secondItem="DTG-Eq-9A4" secondAttribute="bottom" constant="3" id="5jz-CB-VPA"/>
+                    <constraint firstItem="DTG-Eq-9A4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="34" id="Eho-Qv-mBG"/>
+                    <constraint firstItem="hQp-pt-3Ew" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="PpS-Sq-JhF"/>
+                    <constraint firstAttribute="bottom" secondItem="hQp-pt-3Ew" secondAttribute="bottom" id="Z0W-Hx-rvM"/>
+                    <constraint firstItem="qaD-FR-Hp7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="eTr-cz-NF1"/>
+                    <constraint firstItem="hQp-pt-3Ew" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" id="j7q-xc-UzA"/>
+                    <constraint firstItem="qaD-FR-Hp7" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="jLF-AO-ugS"/>
+                    <constraint firstItem="DTG-Eq-9A4" firstAttribute="top" secondItem="jk4-JL-xPZ" secondAttribute="bottom" constant="2" id="lM1-9Y-ZBJ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="comment" destination="DTG-Eq-9A4" id="caF-fA-Lak"/>
+                <outlet property="date" destination="jk4-JL-xPZ" id="zHu-Jb-R1s"/>
+                <outlet property="score" destination="qaD-FR-Hp7" id="Q8j-IV-p1L"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="83"/>
+        </tableViewCell>
+    </objects>
+</document>
