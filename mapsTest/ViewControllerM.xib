@@ -29,18 +29,25 @@
                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </view>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x3I-F5-CFB" userLabel="TimePanel" customClass="SpringView" customModule="Spring">
-                    <rect key="frame" x="4" y="67.5" width="367" height="20"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x3I-F5-CFB" userLabel="TimePanel">
+                    <rect key="frame" x="4" y="-23" width="367" height="120"/>
                     <subviews>
-                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="KOn-oJ-UGm">
-                            <rect key="frame" x="0.0" y="-100" width="367" height="100"/>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" allowsSelectionDuringEditing="YES" allowsMultipleSelection="YES" allowsMultipleSelectionDuringEditing="YES" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="KOn-oJ-UGm">
+                            <rect key="frame" x="0.0" y="-30" width="367" height="100"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="100" id="SZC-dI-TU0"/>
                             </constraints>
                         </tableView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aKp-hy-6td">
+                            <rect key="frame" x="0.0" y="70" width="367" height="30"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="2l2-o1-C3G"/>
+                            </constraints>
+                        </view>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fnf-c9-UEE">
-                            <rect key="frame" x="0.0" y="0.0" width="367" height="20"/>
+                            <rect key="frame" x="0.0" y="100" width="367" height="20"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="20" id="GJw-B4-CeY"/>
                             </constraints>
@@ -53,24 +60,18 @@
                     <color key="backgroundColor" red="1" green="0.60217369229999995" blue="0.62320563169999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="bottom" secondItem="Fnf-c9-UEE" secondAttribute="bottom" id="2fY-wh-7f6"/>
-                        <constraint firstItem="Fnf-c9-UEE" firstAttribute="top" secondItem="KOn-oJ-UGm" secondAttribute="bottom" id="BUt-AB-M2P"/>
+                        <constraint firstItem="Fnf-c9-UEE" firstAttribute="top" secondItem="aKp-hy-6td" secondAttribute="bottom" id="4gZ-MV-Ob6"/>
                         <constraint firstItem="KOn-oJ-UGm" firstAttribute="width" secondItem="x3I-F5-CFB" secondAttribute="width" id="BsM-dA-lYV"/>
                         <constraint firstItem="Fnf-c9-UEE" firstAttribute="centerX" secondItem="x3I-F5-CFB" secondAttribute="centerX" id="dey-X4-d9N"/>
+                        <constraint firstItem="aKp-hy-6td" firstAttribute="bottom" secondItem="Fnf-c9-UEE" secondAttribute="top" id="dwW-Sz-9SE"/>
+                        <constraint firstAttribute="height" constant="120" id="g01-Pb-iu3"/>
+                        <constraint firstItem="KOn-oJ-UGm" firstAttribute="bottom" secondItem="aKp-hy-6td" secondAttribute="top" id="j0T-gA-FmD"/>
+                        <constraint firstItem="aKp-hy-6td" firstAttribute="top" secondItem="KOn-oJ-UGm" secondAttribute="bottom" id="l76-dj-5Tu"/>
+                        <constraint firstItem="aKp-hy-6td" firstAttribute="width" secondItem="x3I-F5-CFB" secondAttribute="width" id="oyp-Tz-Vhy"/>
                         <constraint firstItem="KOn-oJ-UGm" firstAttribute="centerX" secondItem="x3I-F5-CFB" secondAttribute="centerX" id="q5i-mU-djj"/>
                         <constraint firstItem="Fnf-c9-UEE" firstAttribute="width" secondItem="x3I-F5-CFB" secondAttribute="width" id="rmj-pt-i0R"/>
-                        <constraint firstItem="KOn-oJ-UGm" firstAttribute="bottom" secondItem="Fnf-c9-UEE" secondAttribute="top" id="vPb-dy-K2u"/>
+                        <constraint firstItem="aKp-hy-6td" firstAttribute="centerX" secondItem="x3I-F5-CFB" secondAttribute="centerX" id="vPG-mH-5sp"/>
                     </constraints>
-                    <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="string" keyPath="animation" value="slideDown"/>
-                        <userDefinedRuntimeAttribute type="number" keyPath="y">
-                            <real key="value" value="300"/>
-                        </userDefinedRuntimeAttribute>
-                        <userDefinedRuntimeAttribute type="boolean" keyPath="autohide" value="NO"/>
-                        <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="NO"/>
-                        <userDefinedRuntimeAttribute type="number" keyPath="duration">
-                            <real key="value" value="3"/>
-                        </userDefinedRuntimeAttribute>
-                    </userDefinedRuntimeAttributes>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="05L-Q8-C1Y" userLabel="DetailView">
                     <rect key="frame" x="0.0" y="667" width="375" height="200"/>
@@ -105,8 +106,7 @@
                 <constraint firstItem="kau-tL-qDx" firstAttribute="bottom" secondItem="8hC-CR-N9u" secondAttribute="top" id="1ty-1H-lSa"/>
                 <constraint firstItem="kau-tL-qDx" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="5nU-6v-E5m"/>
                 <constraint firstItem="8hC-CR-N9u" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="7Yh-Ei-Azm"/>
-                <constraint firstItem="x3I-F5-CFB" firstAttribute="bottom" secondItem="8hC-CR-N9u" secondAttribute="bottom" constant="20" id="85H-iS-Vim"/>
-                <constraint firstItem="x3I-F5-CFB" firstAttribute="top" secondItem="8hC-CR-N9u" secondAttribute="bottom" id="9Zg-Za-fue"/>
+                <constraint firstItem="x3I-F5-CFB" firstAttribute="bottom" secondItem="8hC-CR-N9u" secondAttribute="bottom" constant="30" id="85H-iS-Vim"/>
                 <constraint firstItem="Gim-vM-KKg" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="EW7-TE-SJD"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="top" secondItem="8hC-CR-N9u" secondAttribute="top" id="Nbj-IB-ovX"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="x3I-F5-CFB" secondAttribute="trailing" constant="4" id="Qnh-gd-75h"/>

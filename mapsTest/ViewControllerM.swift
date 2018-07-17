@@ -13,18 +13,30 @@ import Spring
 class ViewControllerM: UIViewController, UITableViewDelegate, UITableViewDataSource {
 private let myItems: NSArray = ["TEST1", "TEST2", "TEST3"]
     @IBOutlet weak var timeTable: UITableView!
-    @IBOutlet weak var timePanel: SpringView!
+    @IBOutlet weak var timePanel: UIView!
     @IBOutlet weak var header: SinglePageHeader!
     @IBOutlet weak var mapView: GMSMapView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        timeTable.register(TimeTableViewCell.self, forCellReuseIdentifier: "TimeTableViewCell")
+                self.timeTable.register(UINib(nibName: "TimeTableViewCell", bundle: nil), forCellReuseIdentifier: "TimeTableViewCell")
+    //timeTable.register(TimeTableViewCell.self, forCellReuseIdentifier: "TimeTableViewCell")
         timeTable.delegate = self
         timeTable.dataSource = self
+        timeTable.isMultipleTouchEnabled = true
+        timeTable.allowsMultipleSelection = true
         header.setTitle("配送MAP")
         mapView.isMyLocationEnabled = true
         mapView.settings.myLocationButton = true
         timeTable.reloadData()
+        
+        let label: UILabel = UILabel(frame:CGRect(x:0,y:0,width:100,height:50))
+        label.text = "Label"
+        label.textColor = UIColor.black
+        label.shadowColor = UIColor.gray
+        label.textAlignment = NSTextAlignment.center
+        //label.layer.position = CGPoint(x:label.bounds.width/2,y:label.bounds.height/2)
+        timePanel.addSubview(label)
+        
         // Do any additional setup after loading the view.
     }
 
@@ -34,10 +46,22 @@ private let myItems: NSArray = ["TEST1", "TEST2", "TEST3"]
     }
     
 
+    var is2:Bool = false
     @IBAction func openTimePanel(_ sender: Any) {
-        UIView.animate(withDuration: 0.2, delay: 0.0, options: .curveEaseIn, animations: {
+       // self.view.bringSubview(toFront: timePanel)
+        if(!is2) {
+        UIView.animate(withDuration: 0.2, delay: 0.0, options: [.curveEaseIn ,.allowUserInteraction], animations: {
             self.timePanel.center.y += 100.0
-        }, completion: nil)
+        }, completion:  {(finished: Bool) in
+            self.is2 = true
+        })
+        } else {
+            UIView.animate(withDuration: 0.2, delay: 0.0, options: .curveEaseIn, animations: {
+                self.timePanel.center.y -= 100.0
+            }, completion:  {(finished: Bool) in
+                self.is2 = false
+            })
+        }
     }
     /*
     // MARK: - Navigation
@@ -67,7 +91,9 @@ private let myItems: NSArray = ["TEST1", "TEST2", "TEST3"]
     }
     
     
-    
+    func tableView(_ table: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 30.0
+    }
     /*
      
      Cellに値を設定するデータソースメソッド.
@@ -79,18 +105,19 @@ private let myItems: NSArray = ["TEST1", "TEST2", "TEST3"]
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         // 再利用するCellを取得する.
-        
         let cell = timeTable.dequeueReusableCell(withIdentifier: "TimeTableViewCell", for: indexPath as IndexPath) as! TimeTableViewCell
         
         // Cellに値を設定する.
-        
-        //cell.time!.text = "\(myItems[indexPath.row])"
-        
-        
-        
+        cell.time!.text = "\(myItems[indexPath.row])"
         return cell
         
     }
     
+    
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("AAA")
+        //tableView.deselectRow(at: indexPath, animated: true)
+    }
     
 }

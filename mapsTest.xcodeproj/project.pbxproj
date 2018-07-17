@@ -15,11 +15,6 @@
 		36D8A38F20F9D1960068FED1 /* mapsTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D8A38E20F9D1960068FED1 /* mapsTestTests.swift */; };
 		36D8A39A20F9D1960068FED1 /* mapsTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D8A39920F9D1960068FED1 /* mapsTestUITests.swift */; };
 		36D8A3A820F9D3B00068FED1 /* SinglePageHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D8A3A720F9D3AF0068FED1 /* SinglePageHeader.swift */; };
-		36D8A3B120F9D3D40068FED1 /* CustomerReviewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36D8A3AC20F9D3D40068FED1 /* CustomerReviewCell.xib */; };
-		36D8A3B220F9D3D40068FED1 /* OrderAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36D8A3AD20F9D3D40068FED1 /* OrderAlertViewController.xib */; };
-		36D8A3B320F9D3D40068FED1 /* OrderTwoHeadAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36D8A3AE20F9D3D40068FED1 /* OrderTwoHeadAlertView.xib */; };
-		36D8A3B420F9D3D40068FED1 /* SinglePageHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36D8A3AF20F9D3D40068FED1 /* SinglePageHeader.xib */; };
-		36D8A3B520F9D3D40068FED1 /* SinglePageHeaderのコピー.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36D8A3B020F9D3D40068FED1 /* SinglePageHeaderのコピー.xib */; };
 		36D8A3B720F9D3E30068FED1 /* UINibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D8A3B620F9D3E30068FED1 /* UINibView.swift */; };
 		36D8A3B920F9D5650068FED1 /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D8A3B820F9D5650068FED1 /* MapsViewController.swift */; };
 		36D8A3BB20F9D57D0068FED1 /* GoogleMapsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D8A3BA20F9D57D0068FED1 /* GoogleMapsService.swift */; };
@@ -34,6 +29,17 @@
 		36D8A3CF20FC51810068FED1 /* TimeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36D8A3CD20FC51810068FED1 /* TimeTableViewCell.xib */; };
 		36D8A3D120FCBB3D0068FED1 /* MapViewDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D8A3D020FCBB3D0068FED1 /* MapViewDetail.swift */; };
 		36D8A3D320FCBB590068FED1 /* MapViewDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36D8A3D220FCBB590068FED1 /* MapViewDetail.xib */; };
+		36D8A3DA20FE16C90068FED1 /* CustomerReviewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36D8A3D520FE16C80068FED1 /* CustomerReviewCell.xib */; };
+		36D8A3DB20FE16C90068FED1 /* OrderAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36D8A3D620FE16C80068FED1 /* OrderAlertViewController.xib */; };
+		36D8A3DC20FE16C90068FED1 /* OrderTwoHeadAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36D8A3D720FE16C80068FED1 /* OrderTwoHeadAlertView.xib */; };
+		36D8A3DD20FE16C90068FED1 /* SinglePageHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36D8A3D820FE16C80068FED1 /* SinglePageHeader.xib */; };
+		36D8A3DE20FE16C90068FED1 /* SinglePageHeaderのコピー.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36D8A3D920FE16C80068FED1 /* SinglePageHeaderのコピー.xib */; };
+		36D8A3E120FE28F10068FED1 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D8A3DF20FE28F10068FED1 /* TableViewCell.swift */; };
+		36D8A3E220FE28F10068FED1 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36D8A3E020FE28F10068FED1 /* TableViewCell.xib */; };
+		36D8A3E520FE4BC40068FED1 /* ViewController34.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D8A3E320FE4BC40068FED1 /* ViewController34.swift */; };
+		36D8A3E620FE4BC40068FED1 /* ViewController34.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36D8A3E420FE4BC40068FED1 /* ViewController34.xib */; };
+		36D8A3E920FE4E290068FED1 /* ViewControllerQ.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36D8A3E720FE4E280068FED1 /* ViewControllerQ.xib */; };
+		36D8A3EA20FE4E290068FED1 /* ViewControllerQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D8A3E820FE4E280068FED1 /* ViewControllerQ.swift */; };
 		5B4C7E31655200FCEF6CFB7A /* Pods_mapsTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0EE920EE17108D0FB715DC7 /* Pods_mapsTestTests.framework */; };
 		CAC550F3E77E19285B95A1A3 /* Pods_mapsTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 419A73AE68AE4299987BEE69 /* Pods_mapsTest.framework */; };
 		F521EDD543D6A6D13FEA89C3 /* Pods_mapsTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 163CA45A72141CD14333758F /* Pods_mapsTestUITests.framework */; };
@@ -73,11 +79,6 @@
 		36D8A39920F9D1960068FED1 /* mapsTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapsTestUITests.swift; sourceTree = "<group>"; };
 		36D8A39B20F9D1960068FED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36D8A3A720F9D3AF0068FED1 /* SinglePageHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SinglePageHeader.swift; sourceTree = "<group>"; };
-		36D8A3AC20F9D3D40068FED1 /* CustomerReviewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomerReviewCell.xib; sourceTree = "<group>"; };
-		36D8A3AD20F9D3D40068FED1 /* OrderAlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrderAlertViewController.xib; sourceTree = "<group>"; };
-		36D8A3AE20F9D3D40068FED1 /* OrderTwoHeadAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrderTwoHeadAlertView.xib; sourceTree = "<group>"; };
-		36D8A3AF20F9D3D40068FED1 /* SinglePageHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SinglePageHeader.xib; sourceTree = "<group>"; };
-		36D8A3B020F9D3D40068FED1 /* SinglePageHeaderのコピー.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "SinglePageHeaderのコピー.xib"; sourceTree = "<group>"; };
 		36D8A3B620F9D3E30068FED1 /* UINibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UINibView.swift; sourceTree = "<group>"; };
 		36D8A3B820F9D5650068FED1 /* MapsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
 		36D8A3BA20F9D57D0068FED1 /* GoogleMapsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleMapsService.swift; sourceTree = "<group>"; };
@@ -92,6 +93,17 @@
 		36D8A3CD20FC51810068FED1 /* TimeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimeTableViewCell.xib; sourceTree = "<group>"; };
 		36D8A3D020FCBB3D0068FED1 /* MapViewDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewDetail.swift; sourceTree = "<group>"; };
 		36D8A3D220FCBB590068FED1 /* MapViewDetail.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapViewDetail.xib; sourceTree = "<group>"; };
+		36D8A3D520FE16C80068FED1 /* CustomerReviewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomerReviewCell.xib; sourceTree = "<group>"; };
+		36D8A3D620FE16C80068FED1 /* OrderAlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrderAlertViewController.xib; sourceTree = "<group>"; };
+		36D8A3D720FE16C80068FED1 /* OrderTwoHeadAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrderTwoHeadAlertView.xib; sourceTree = "<group>"; };
+		36D8A3D820FE16C80068FED1 /* SinglePageHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SinglePageHeader.xib; sourceTree = "<group>"; };
+		36D8A3D920FE16C80068FED1 /* SinglePageHeaderのコピー.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "SinglePageHeaderのコピー.xib"; sourceTree = "<group>"; };
+		36D8A3DF20FE28F10068FED1 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		36D8A3E020FE28F10068FED1 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		36D8A3E320FE4BC40068FED1 /* ViewController34.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController34.swift; sourceTree = "<group>"; };
+		36D8A3E420FE4BC40068FED1 /* ViewController34.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController34.xib; sourceTree = "<group>"; };
+		36D8A3E720FE4E280068FED1 /* ViewControllerQ.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewControllerQ.xib; sourceTree = "<group>"; };
+		36D8A3E820FE4E280068FED1 /* ViewControllerQ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerQ.swift; sourceTree = "<group>"; };
 		3A798CC57DFBBE13F63CBAA6 /* Pods-mapsTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mapsTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mapsTest/Pods-mapsTest.debug.xcconfig"; sourceTree = "<group>"; };
 		419A73AE68AE4299987BEE69 /* Pods_mapsTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mapsTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72B498F9D22434EBA14CE451 /* Pods-mapsTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mapsTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mapsTestUITests/Pods-mapsTestUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -154,6 +166,7 @@
 		36D8A37820F9D1820068FED1 /* mapsTest */ = {
 			isa = PBXGroup;
 			children = (
+				36D8A3D420FE16C80068FED1 /* xib */,
 				36D8A3C620F9DADA0068FED1 /* AppLocationManager.swift */,
 				36D8A3C420F9DA9F0068FED1 /* App.swift */,
 				36D8A3C220F9DA990068FED1 /* Router.swift */,
@@ -162,7 +175,6 @@
 				36D8A3BA20F9D57D0068FED1 /* GoogleMapsService.swift */,
 				36D8A3B820F9D5650068FED1 /* MapsViewController.swift */,
 				36D8A3B620F9D3E30068FED1 /* UINibView.swift */,
-				36D8A3AB20F9D3D40068FED1 /* xib */,
 				36D8A3A720F9D3AF0068FED1 /* SinglePageHeader.swift */,
 				36D8A37920F9D1830068FED1 /* AppDelegate.swift */,
 				36D8A37B20F9D1830068FED1 /* ViewController.swift */,
@@ -176,6 +188,12 @@
 				36D8A3CD20FC51810068FED1 /* TimeTableViewCell.xib */,
 				36D8A3D020FCBB3D0068FED1 /* MapViewDetail.swift */,
 				36D8A3D220FCBB590068FED1 /* MapViewDetail.xib */,
+				36D8A3DF20FE28F10068FED1 /* TableViewCell.swift */,
+				36D8A3E020FE28F10068FED1 /* TableViewCell.xib */,
+				36D8A3E320FE4BC40068FED1 /* ViewController34.swift */,
+				36D8A3E420FE4BC40068FED1 /* ViewController34.xib */,
+				36D8A3E820FE4E280068FED1 /* ViewControllerQ.swift */,
+				36D8A3E720FE4E280068FED1 /* ViewControllerQ.xib */,
 			);
 			path = mapsTest;
 			sourceTree = "<group>";
@@ -198,17 +216,17 @@
 			path = mapsTestUITests;
 			sourceTree = "<group>";
 		};
-		36D8A3AB20F9D3D40068FED1 /* xib */ = {
+		36D8A3D420FE16C80068FED1 /* xib */ = {
 			isa = PBXGroup;
 			children = (
-				36D8A3AC20F9D3D40068FED1 /* CustomerReviewCell.xib */,
-				36D8A3AD20F9D3D40068FED1 /* OrderAlertViewController.xib */,
-				36D8A3AE20F9D3D40068FED1 /* OrderTwoHeadAlertView.xib */,
-				36D8A3AF20F9D3D40068FED1 /* SinglePageHeader.xib */,
-				36D8A3B020F9D3D40068FED1 /* SinglePageHeaderのコピー.xib */,
+				36D8A3D520FE16C80068FED1 /* CustomerReviewCell.xib */,
+				36D8A3D620FE16C80068FED1 /* OrderAlertViewController.xib */,
+				36D8A3D720FE16C80068FED1 /* OrderTwoHeadAlertView.xib */,
+				36D8A3D820FE16C80068FED1 /* SinglePageHeader.xib */,
+				36D8A3D920FE16C80068FED1 /* SinglePageHeaderのコピー.xib */,
 			);
 			name = xib;
-			path = "../../../scatch-ios/views/xib";
+			path = ../../Desktop/iOS_projects/mapsTest/mapsTest/xib;
 			sourceTree = "<group>";
 		};
 		63AF59C6B38BC248D1D06A55 /* Pods */ = {
@@ -343,17 +361,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36D8A3DB20FE16C90068FED1 /* OrderAlertViewController.xib in Resources */,
+				36D8A3E220FE28F10068FED1 /* TableViewCell.xib in Resources */,
+				36D8A3DE20FE16C90068FED1 /* SinglePageHeaderのコピー.xib in Resources */,
 				36D8A38420F9D1960068FED1 /* LaunchScreen.storyboard in Resources */,
+				36D8A3DA20FE16C90068FED1 /* CustomerReviewCell.xib in Resources */,
+				36D8A3DD20FE16C90068FED1 /* SinglePageHeader.xib in Resources */,
+				36D8A3DC20FE16C90068FED1 /* OrderTwoHeadAlertView.xib in Resources */,
 				36D8A3D320FCBB590068FED1 /* MapViewDetail.xib in Resources */,
 				36D8A38120F9D1960068FED1 /* Assets.xcassets in Resources */,
-				36D8A3B220F9D3D40068FED1 /* OrderAlertViewController.xib in Resources */,
-				36D8A3B520F9D3D40068FED1 /* SinglePageHeaderのコピー.xib in Resources */,
 				36D8A3CF20FC51810068FED1 /* TimeTableViewCell.xib in Resources */,
-				36D8A3B320F9D3D40068FED1 /* OrderTwoHeadAlertView.xib in Resources */,
-				36D8A3B420F9D3D40068FED1 /* SinglePageHeader.xib in Resources */,
+				36D8A3E920FE4E290068FED1 /* ViewControllerQ.xib in Resources */,
 				36D8A3CB20F9E1340068FED1 /* ViewControllerM.xib in Resources */,
+				36D8A3E620FE4BC40068FED1 /* ViewController34.xib in Resources */,
 				36D8A37F20F9D1830068FED1 /* Main.storyboard in Resources */,
-				36D8A3B120F9D3D40068FED1 /* CustomerReviewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,12 +504,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36D8A3E120FE28F10068FED1 /* TableViewCell.swift in Sources */,
 				36D8A3B920F9D5650068FED1 /* MapsViewController.swift in Sources */,
 				36D8A3BB20F9D57D0068FED1 /* GoogleMapsService.swift in Sources */,
 				36D8A3B720F9D3E30068FED1 /* UINibView.swift in Sources */,
 				36D8A3C520F9DA9F0068FED1 /* App.swift in Sources */,
 				36D8A3CE20FC51810068FED1 /* TimeTableViewCell.swift in Sources */,
 				36D8A3CA20F9E1340068FED1 /* ViewControllerM.swift in Sources */,
+				36D8A3EA20FE4E290068FED1 /* ViewControllerQ.swift in Sources */,
+				36D8A3E520FE4BC40068FED1 /* ViewController34.swift in Sources */,
 				36D8A3D120FCBB3D0068FED1 /* MapViewDetail.swift in Sources */,
 				36D8A3C720F9DADA0068FED1 /* AppLocationManager.swift in Sources */,
 				36D8A3BE20F9D58D0068FED1 /* GoogleMapsGeocodingApiService.swift in Sources */,
